@@ -11,7 +11,7 @@ class TaskStatus(enum.Enum):
 
 
 class Task(Base):
-    _tablename__ = "tasks"
+    __tablename__ = "tasks"
 
     id = Column(Integer, primary_key=True, index=True)
     title = Column(String(100), nullable=False)
