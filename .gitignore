@@ -1,8 +1,17 @@
-venv/
+# Temp files
 __pycache__/
-
-.env
-
-*.spec
 *.pyc
 *.pyo
+*.spec
+
+# Virtual environment
+venv/
+.env
+
+# logs and cache
+*.log
+.pytest_cache/
+
+# files ide
+.vscode/
+.idea/
