@@ -2,9 +2,12 @@ from fastapi import FastAPI
 import uvicorn
 from .database import engine, Base
 from .models import user, task
+from app.routers import main_route
+from app.config import settings
 
-app = FastAPI(title="ToDo API")
+app = FastAPI(title=settings.TITLE)
 
+app.include_router(main_route)
 
 @app.get("/")
 async def root():
