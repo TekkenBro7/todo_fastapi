@@ -7,3 +7,7 @@ dotenv
 asyncpg
 pydantic
 alembic
+python-jose
+bcrypt
+passlib[bcrypt]
+python-multipart
