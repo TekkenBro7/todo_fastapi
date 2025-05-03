@@ -8,7 +8,7 @@ from ..database import Base
 
 class TaskStatus(enum.Enum):
     NEW = "New"
-    IN_PROGRESS = "In Progress"
+    IN_PROGRESS = "In_Progress"
     COMPLETED = "Completed"
 
 

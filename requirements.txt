@@ -11,3 +11,7 @@ python-jose
 bcrypt
 passlib[bcrypt]
 python-multipart
+pytest 
+pytest-asyncio 
+httpx
+aiosqlite
